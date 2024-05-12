@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --main-text-color: #33ff22;
+  --body-text-color: #070707;
+  --background-color: #010f01;
+  --body-background-color: #a7a7a7;
+  --body-button-border-color: #838383;
+  --body-button-color: #8d8d8d;
+  --shadow-color: rgba(0, 0, 0, 0.5);
+  --body-button-hover-color: #7e7e7e;
+  --body-logo-text-background-color: #969696;
+  --about-us-elements-border-color: #33ff22;
+  --about-us-button-color: #053105;
+  --about-us-button-hover-color: #085e08;
+  --about-us-indicator-color: #053105;
+  --contact-us-button-color: #070707;
+  --contact-us-button-text-color: #33ff22;
+  --contact-us-button-border-color: #33ff22;
+  --contact-us-button-color-hover: #085e08;
+  --contact-us-input-placeholder-color: #119b11;
+  --contact-us-input-focus-color: #33ff22;
+  --contact-us-input-border-color: #33ff22;
+  --contact-us-input-text-color: #33ff22;
+  --contact-us-input-textarea-scrollbar-tracker-color: #33ff22;
+  --contact-us-input-textarea-scrollbar-track-color: #085e08;
+  --contact-us-input-background-color: #070707;
+  --footer-usb-background-color: #070707;
+  --footer-usb-connector-border-top-color: #ffffff;
+  --footer-usb-connector-border-color: #070707;
+  --footer-list-item-boarder-color:#808080;
+  --footer-unnecesary-information-text-color:#ffffff;
+  scroll-behavior: smooth;
+  color: var(--text-color);
+  font-family: "Handjet", sans-serif;
+}
+img {
+  display: block;
+  margin: auto;
+}
+a {
+  color: inherit;
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Press Start 2P", system-ui;
+  color: var(--main-text-color);
+}
+.body {
+  background-color: var(--body-background-color);
+  color: var(--body-text-color);
+}
+.main {
+  color: var(--main-text-color);
+  background-color: var(--background-color);
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0px 0px 6px 7px var(--shadow-color);
+}
+.container {
+  max-width: 1600px;
+  margin: auto;
+}
+.index__logo-image {
+  margin: 0;
+  max-height: 64px;
+  max-width: 64px;
+}
+.index__block-underscore{
+  border: none;
+  border-top: 2px dashed var(--main-text-color);
+  margin-top: 30px;
+}
+
+@media (max-width: 1630px) {
+  .container {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+}
